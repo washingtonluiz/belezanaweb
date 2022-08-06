@@ -1,6 +1,12 @@
 import React from 'react'
-import './App.css'
 
-const App = () => <div className="App">Boa sorte! 🚀</div>
+const App = () => (
+  <div className="App">
+    Boa sorte!{' '}
+    <span role="img" aria-label="foguete">
+      🚀
+    </span>
+  </div>
+)
 
 export default App
